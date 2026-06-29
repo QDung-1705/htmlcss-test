@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Canvas - Intelligent Infinite Creativity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-info">
+                <div class="top-bar-item">
+                    <span class="material-symbols-outlined text-primary" style="font-size: 16px;">mail</span>
+                    <span>Info@webmail.com</span>
+                </div>
+                <div class="top-bar-item">
+                    <span class="material-symbols-outlined text-primary" style="font-size: 16px;">location_on</span>
+                    <span>547 ns tower St. anglo City, USA</span>
+                </div>
+            </div>
+            <div class="top-bar-social">
+                <a href="#">f</a>
+                <a href="#">t</a>
+                <a href="#">in</a>
+                <a href="#">y</a>
+                <a href="#">p</a>
+            </div>
+        </div>
+    </div>
+    <!-- Main NavBar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                </div>
+                <div class="logo-text">Reanty</div>
+                <span class="text-primary">.</span>
+            </div>
+            <div class="nav-links">
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Feature</a>
+                <a class="nav-link" href="#">Market</a>
+                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="#">Log In</a>
+                <button class="btn-primary">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- 1. Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Find the best Real Estate on your country<span style="color: var(--on-surface);">.</span>
+                    </h1>
+                    <svg class="hero-arrow" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="3" viewbox="0 0 100 100">
+                        <path d="M 20 20 Q 80 20 80 80"></path>
+                        <path d="M 60 80 L 80 80 L 80 60"></path>
+                        <circle cx="50" cy="50" fill="none" r="10" stroke="currentColor" stroke-width="3"></circle>
+                    </svg>
+                    <p class="hero-desc">
+                        With over 1 million homes for sale available on the website, Renting can match you with a house.
+                    </p>
+                    <button class="btn-primary btn-icon" style="padding: 12px 32px;">
+                        Start membership <span class="material-symbols-outlined"
+                            style="font-size: 14px;">chevron_right</span>
+                    </button>
+                    <div class="house-tabs">
+                        <div class="house-tab house-tab-1"><span>HOUSE 1</span></div>
+                        <div class="house-tab house-tab-2"><span>HOUSE 2</span></div>
+                        <div class="house-tab house-tab-3"><span>HOUSE 3</span></div>
+                        <div class="house-nav">
+                            <span class="house-line"></span>
+                            <span class="active">1</span>
+                            <span>2</span>
+                            <span>3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-img-box">
+                        <div class="hero-video-btn">
+                            <span>How it works</span>
+                            <div class="hero-video-icon">
+                                <span class="material-symbols-outlined">play_arrow</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-card">
+                        <div class="hero-card-icon">
+                            <span class="material-symbols-outlined">stacked_bar_chart</span>
+                        </div>
+                        <div class="hero-card-val">$7454.21</div>
+                        <div class="hero-card-label">Revenue</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 2. Core Features -->
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Commercial Real Estate<br />And Office</h2>
+                    <p class="section-desc">Work with Renting brokers who help you to get started with smart tools to.
+                    </p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><span class="material-symbols-outlined"
+                                style="font-size: 30px;">person</span></div>
+                        <h3 class="feature-title">Buyer Guides</h3>
+                        <p class="feature-desc">Nurture valuable leads into customers, and turn one time.</p>
+                    </div>
+                    <div class="feature-card highlight">
+                        <div class="feature-icon"><span class="material-symbols-outlined"
+                                style="font-size: 30px;">real_estate_agent</span></div>
+                        <h3 class="feature-title">Renter Guides</h3>
+                        <p class="feature-desc">Build brand awareness on the top social media networks.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><span class="material-symbols-outlined"
+                                style="font-size: 30px;">home</span></div>
+                        <h3 class="feature-title">Seller Guides</h3>
+                        <p class="feature-desc">Get professionally-written content that attracts qualified.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 3. About -->
+        <section class="about">
+            <div class="container">
+                <div class="about-image">
+                    <div class="about-img-inner"></div>
+                    <div class="about-badge">
+                        <span class="material-symbols-outlined icon">star</span>
+                        <span class="text">5 Star Rating</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 24px;">Dream Living
+                        Spaces<br />Setting New Build</h2>
+                    <p class="section-desc" style="text-align: left; margin: 0 0 48px 0; max-width: none;">SeaWire Web
+                        is a wireframe kit that has more than 15 popular categories and more than 200 screens</p>
+                    <div class="about-list">
+                        <div class="about-item">
+                            <div class="about-item-icon"><span class="material-symbols-outlined">house</span></div>
+                            <div>
+                                <h4 class="about-item-title">The perfect Rsidencye</h4>
+                                <p class="about-item-desc">Take a deep dive and browse origin neighborhood photos.</p>
+                            </div>
+                        </div>
+                        <div class="about-item highlight">
+                            <div class="about-item-icon"><span class="material-symbols-outlined">support_agent</span>
+                            </div>
+                            <div>
+                                <h4 class="about-item-title">Global Arhitect Experts</h4>
+                                <p class="about-item-desc">Take a deep dive and browse origin neighborhood photos.</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <div class="about-item-icon"><span class="material-symbols-outlined">language</span></div>
+                            <div>
+                                <h4 class="about-item-title">Built-in a storage capable</h4>
+                                <p class="about-item-desc">Take a deep dive and browse origin neighborhood photos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 4. Today's Sells -->
+        <section class="sells">
+            <div class="container">
+                <div class="sells-content">
+                    <div class="sells-label">
+                        <span class="material-symbols-outlined" style="font-size: 18px;">home_work</span>
+                        <span>About home</span>
+                    </div>
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 24px;">Today Sells Properties</h2>
+                    <p class="section-desc" style="text-align: left; margin: 0 0 40px 0; max-width: 450px;">SeaWire Web
+                        is a wireframe kit that has more than 15 popular categories and more than 200 screens</p>
+                    <ul class="sells-list">
+                        <li><span class="sells-bullet"></span>Live Music concert at Newyork</li>
+                        <li><span class="sells-bullet"></span>Our best boat Tour is just for you</li>
+                        <li><span class="sells-bullet"></span>Live Music concert at Newyork</li>
+                        <li><span class="sells-bullet"></span>Our best boat Tour is just for you</li>
+                        <li><span class="sells-bullet"></span>Live Music concert at Newyork</li>
+                    </ul>
+                    <div class="house-tabs" style="margin-top: 0;">
+                        <div class="house-tab house-tab-1" style="height: 64px;"><span>HOUSE 1</span></div>
+                        <div class="house-tab house-tab-2" style="height: 48px; margin-top: 16px;"><span>HOUSE 2</span>
+                        </div>
+                        <div class="house-tab house-tab-3" style="height: 32px; margin-top: 32px;"><span>HOUSE 3</span>
+                        </div>
+                        <div class="house-nav">
+                            <span class="house-line"></span>
+                            <span class="active">1</span>
+                            <span>2</span>
+                            <span>3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sells-gallery">
+                    <div class="sells-col-1"></div>
+                    <div class="sells-col-2">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 5. Services -->
+        <section class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Services provide for you</h2>
+                    <p class="section-desc">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <span class="material-symbols-outlined service-icon">bed</span>
+                        <h3 class="service-title">Bed Rooms</h3>
+                        <p class="service-desc">Desktop publishing software like aldus page maker including</p>
+                        <a class="service-link" href="#">Learn more <span class="material-symbols-outlined"
+                                style="font-size: 14px;">arrow_forward</span></a>
+                    </div>
+                    <div class="service-card">
+                        <span class="material-symbols-outlined service-icon">bathtub</span>
+                        <h3 class="service-title">Swimming pool</h3>
+                        <p class="service-desc">React creative agency amet, consec tetur adipiscing elit.</p>
+                        <a class="service-link" href="#">Learn more <span class="material-symbols-outlined"
+                                style="font-size: 14px;">arrow_forward</span></a>
+                    </div>
+                    <div class="service-card">
+                        <span class="material-symbols-outlined service-icon">architecture</span>
+                        <h3 class="service-title">Copywriting content</h3>
+                        <p class="service-desc">The standard chunk of used since the 1500s is reproduced</p>
+                        <a class="service-link" href="#">Learn more <span class="material-symbols-outlined"
+                                style="font-size: 14px;">arrow_forward</span></a>
+                    </div>
+                    <div class="service-card">
+                        <span class="material-symbols-outlined service-icon">smart_home</span>
+                        <h3 class="service-title">Smart Home</h3>
+                        <p class="service-desc">The standard chunk of used since the 1500s is reproduced</p>
+                        <a class="service-link" href="#">Learn more <span class="material-symbols-outlined"
+                                style="font-size: 14px;">arrow_forward</span></a>
+                    </div>
+                    <div class="service-card">
+                        <span class="material-symbols-outlined service-icon">local_library</span>
+                        <h3 class="service-title">Libarary area</h3>
+                        <p class="service-desc">Desktop publishing software like aldus page maker including</p>
+                        <a class="service-link" href="#">Learn more <span class="material-symbols-outlined"
+                                style="font-size: 14px;">arrow_forward</span></a>
+                    </div>
+                    <div class="service-card">
+                        <span class="material-symbols-outlined service-icon">admin_panel_settings</span>
+                        <h3 class="service-title">Responsive Duity</h3>
+                        <p class="service-desc">React creative agency amet, consec tetur adipiscing elit.</p>
+                        <a class="service-link" href="#">Learn more <span class="material-symbols-outlined"
+                                style="font-size: 14px;">arrow_forward</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 6. Featured Property -->
+        <section>
+            <div class="container">
+                <div class="featured-header">
+                    <div>
+                        <h2 class="section-title" style="text-align: left; margin-bottom: 16px;">Featured Property</h2>
+                        <p class="section-desc" style="text-align: left; margin: 0; max-width: 450px;">Find your
+                            suitable house here and stay safe and relaxe with pleasure</p>
+                    </div>
+                    <div class="featured-tabs">
+                        <a class="featured-tab active" href="#">Appartment</a>
+                        <a class="featured-tab" href="#">Vila</a>
+                        <a class="featured-tab" href="#">Land</a>
+                    </div>
+                </div>
+                <div class="prop-grid">
+                    <div class="prop-card">
+                        <div class="prop-info hover-up">
+                            <h3 class="prop-title">The Stokes Appartment</h3>
+                            <div class="prop-loc">
+                                <span class="material-symbols-outlined" style="font-size: 14px;">location_on</span>
+                                Cleveland, United States
+                            </div>
+                            <div class="prop-bot">
+                                <span class="prop-price highlight">$2,32,120</span>
+                                <button class="prop-btn primary"><span
+                                        class="material-symbols-outlined">arrow_forward</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prop-card">
+                        <div class="prop-info">
+                            <h3 class="prop-title">The Stokes Appartment</h3>
+                            <div class="prop-loc">
+                                <span class="material-symbols-outlined" style="font-size: 14px;">location_on</span>
+                                Cleveland, United States
+                            </div>
+                            <div class="prop-bot">
+                                <span class="prop-price">$2,32,120</span>
+                                <button class="prop-btn secondary"><span
+                                        class="material-symbols-outlined">arrow_forward</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prop-card">
+                        <div class="prop-info">
+                            <h3 class="prop-title">The Stokes Appartment</h3>
+                            <div class="prop-loc">
+                                <span class="material-symbols-outlined" style="font-size: 14px;">location_on</span>
+                                Cleveland, United States
+                            </div>
+                            <div class="prop-bot">
+                                <span class="prop-price">$2,32,120</span>
+                                <button class="prop-btn secondary"><span
+                                        class="material-symbols-outlined">arrow_forward</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn-outline">Explore Property</button>
+                </div>
+            </div>
+        </section>
+        <!-- 7. Unit Detail -->
+        <section class="unit-detail">
+            <div class="unit-card">
+                <div class="unit-img">
+                    <div class="unit-img-shape1"></div>
+                    <div class="unit-img-shape2">
+                        <svg style="width:100%;height:100%;" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 20 L20 80 L80 80 Z" fill="#fff"></path>
+                        </svg>
+                    </div>
+                    <div class="unit-img-icon">
+                        <span class="material-symbols-outlined" style="font-size: 10px;">schedule</span>
+                    </div>
+                </div>
+                <div class="unit-info">
+                    <div class="unit-price">$4,000</div>
+                    <div class="unit-addr">242 Metric way</div>
+                    <div class="unit-stats">
+                        <div class="unit-stat">
+                            <span class="material-symbols-outlined" style="font-size: 14px;">bed</span> 2
+                        </div>
+                        <div class="unit-stat">
+                            <span class="material-symbols-outlined" style="font-size: 14px;">bathtub</span> 2
+                        </div>
+                        <div class="unit-stat-txt">
+                            <div class="unit-stat-icon-bg"><span class="material-symbols-outlined"
+                                    style="font-size: 14px;">square_foot</span></div> 500sqf
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="unit-badge">
+                <span class="unit-badge-label">UNIT NO.</span>
+                <span class="unit-badge-val">9A</span>
+            </div>
+        </section>
+        <!-- 8. Testimonials -->
+        <section class="testi">
+            <div class="container">
+                <h2 class="section-title">What our customers are saying</h2>
+                <p class="section-desc" style="margin-bottom: 80px;">We make sure you have a fine distance with the
+                    sickness. We make you never lose hope.</p>
+                <div class="testi-wrap">
+                    <button class="btn-prev">
+                        <span class="material-symbols-outlined">arrow_back</span>
+                    </button>
+                    <div class="testi-content">
+                        <div class="testi-img-wrap">
+                            <div class="testi-img-1"></div>
+                            <div class="testi-img-2"></div>
+                        </div>
+                        <div>
+                            <div class="testi-quote-icon"><span class="material-symbols-outlined">format_quote</span>
+                            </div>
+                            <p class="testi-text">
+                                We make sure you have a fine distance with the sickness. We make you never lose hope. We
+                                make sure you have with the sickness.
+                            </p>
+                            <div class="testi-stars">
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 9. Projects -->
+        <section class="projects">
+            <div class="container">
+                <h2 class="section-title"
+                    style="margin-bottom: 64px; max-width: 600px; margin-left: auto; margin-right: auto;">We build more
+                    projects<br />successful</h2>
+                <div class="proj-grid">
+                    <div class="proj-card">
+                        <h3 class="proj-title">San Francisco, California</h3>
+                        <button class="btn-white">See more <span class="material-symbols-outlined"
+                                style="font-size: 14px;">chevron_right</span></button>
+                    </div>
+                    <div class="proj-card">
+                        <h3 class="proj-title">Washington DC</h3>
+                        <button class="btn-white">See more <span class="material-symbols-outlined"
+                                style="font-size: 14px;">chevron_right</span></button>
+                    </div>
+                    <div class="proj-card">
+                        <h3 class="proj-title">Chicago</h3>
+                        <button class="btn-white">See more <span class="material-symbols-outlined"
+                                style="font-size: 14px;">chevron_right</span></button>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <div class="sub-input">
+                        <span class="material-symbols-outlined" style="color: #9ca3af;">mail</span>
+                        <input placeholder="Enter your email here" type="email" />
+                    </div>
+                    <button class="btn-sub">Subscribe</button>
+                </div>
+            </div>
+        </section>
+        <!-- 10. Blog -->
+        <section style="text-align: center;">
+            <div class="container">
+                <h2 class="section-title">From our blog</h2>
+                <p class="section-desc" style="margin-bottom: 64px;">Find your suitable house here and stay safe and
+                    relaxe with pleasure</p>
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <div class="blog-img"></div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">How to rent a home very easily?</h3>
+                            <div class="blog-tag"><span class="material-symbols-outlined"
+                                    style="font-size: 16px;">bookmark</span> Rentals</div>
+                            <p class="blog-desc">How to rent a home very easily in this pandemic situation. You can rent
+                                house through using our platfrom...</p>
+                            <div class="blog-meta">
+                                <div class="blog-meta-item"><span class="material-symbols-outlined"
+                                        style="font-size: 14px;">calendar_today</span> 3 years ago</div>
+                                <div class="blog-meta-item blog-meta-author"><span class="material-symbols-outlined"
+                                        style="font-size: 14px;">person</span> By Mike Hesson</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-img"></div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">How to rent a home very easily?</h3>
+                            <div class="blog-tag"><span class="material-symbols-outlined"
+                                    style="font-size: 16px;">bookmark</span> Rentals</div>
+                            <p class="blog-desc">How to rent a home very easily in this pandemic situation. You can rent
+                                house through using our platfrom...</p>
+                            <div class="blog-meta">
+                                <div class="blog-meta-item"><span class="material-symbols-outlined"
+                                        style="font-size: 14px;">calendar_today</span> 3 years ago</div>
+                                <div class="blog-meta-item blog-meta-author"><span class="material-symbols-outlined"
+                                        style="font-size: 14px;">person</span> By Mike Hesson</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-img"></div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">How to rent a home very easily?</h3>
+                            <div class="blog-tag"><span class="material-symbols-outlined"
+                                    style="font-size: 16px;">bookmark</span> Rentals</div>
+                            <p class="blog-desc">How to rent a home very easily in this pandemic situation. You can rent
+                                house through using our platfrom...</p>
+                            <div class="blog-meta">
+                                <div class="blog-meta-item"><span class="material-symbols-outlined"
+                                        style="font-size: 14px;">calendar_today</span> 3 years ago</div>
+                                <div class="blog-meta-item blog-meta-author"><span class="material-symbols-outlined"
+                                        style="font-size: 14px;">person</span> By Mike Hesson</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-outline">Read All</button>
+            </div>
+        </section>
+        <!-- 11. Contact -->
+        <section class="contact">
+            <div class="container">
+                <span class="contact-subtitle">Contact with us</span>
+                <h2 class="section-title">Looking For To Buy A Property?</h2>
+                <div class="contact-wrap">
+                    <div class="contact-info">
+                        <p class="contact-desc">Browse our property listing and find your best and suitable home or
+                            house for sale, rent and buying. It's so easy and fast.</p>
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <span class="material-symbols-outlined contact-item-icon">check</span>
+                                <span class="contact-item-text">Archit ecto beatae vitae dicta sunt</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="material-symbols-outlined contact-item-icon">check</span>
+                                <span class="contact-item-text">Largest global RealEstate market</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="material-symbols-outlined contact-item-icon">check</span>
+                                <span class="contact-item-text">Nor again is there anyone</span>
+                            </div>
+                        </div>
+                        <div class="contact-shape">
+                            <div class="c-shape-1"></div>
+                            <div class="c-shape-2"></div>
+                            <div class="c-shape-3"></div>
+                            <div class="c-shape-4"></div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrap">
+                        <div class="contact-form">
+                            <h3>Contact Us</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input class="form-control" placeholder="Enter your name" type="text" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input class="form-control" placeholder="Enter your email" type="email" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Message</label>
+                                    <textarea class="form-control" placeholder="Enter your message" rows="4"></textarea>
+                                </div>
+                                <button class="btn-primary btn-submit" type="submit">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- 12. Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col-1">
+                    <div class="footer-logo">
+                        <span class="material-symbols-outlined icon">home</span>
+                        Reanty<span class="text-primary">.</span>
+                    </div>
+                    <p class="footer-desc">With over 1 million homes for sale available on the website.</p>
+                    <div class="footer-social">
+                        <a href="#">in</a>
+                        <a href="#">f</a>
+                        <a href="#">t</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">Company</h4>
+                    <div class="footer-links">
+                        <a href="#">About</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Mobile</a>
+                        <a href="#">Blog</a>
+                        <a href="#">How we work?</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">Contact</h4>
+                    <div class="footer-links">
+                        <a href="#">Help/FAQ</a>
+                        <a href="#">Press</a>
+                        <a href="#">Affiliates</a>
+                        <a href="#">Propert owners</a>
+                        <a href="#">Partners</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">More</h4>
+                    <div class="footer-links">
+                        <a href="#">Land fees</a>
+                        <a href="#">Property</a>
+                        <a href="#">Law tips</a>
+                        <a href="#">Nadges</a>
+                        <a href="#">Privacy</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-title">Head Office</h4>
+                    <p class="footer-desc" style="margin-bottom: 24px;">Xilliams Corner Wine © 2017. 1112 A Market
+                        St<br /># Ste B22, Charlottesville, CA 45565</p>
+                    <h4 class="footer-title" style="margin-bottom: 16px;">News letter</h4>
+                    <div class="footer-newsletter">
+                        <input placeholder="Enter your email address" type="email" />
+                        <button><span class="material-symbols-outlined" style="font-size: 20px;">mail</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="mailto:email@gmail.com">email@gmail.com</a>
+                <a href="tel:1234567890">(123) 456-7890</a>
+                <p>© 2021 Aeyman Megha All rights reserved.</p>
+            </div>
+        </div>
+        <div class="footer-bar"></div>
+    </footer>
+</body>
+
+</html>
