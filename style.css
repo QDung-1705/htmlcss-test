@@ -1582,3 +1582,299 @@ footer {
     height: 16px;
     background: var(--primary-container);
 }
+
+/* ==========================================================================
+   Responsive Design (Mobile & Tablet)
+   ========================================================================== */
+@media (max-width: 768px) {
+    :root {
+        --margin-desktop: 16px;
+    }
+
+    /* Container padding */
+    .container {
+        padding-left: var(--margin-mobile);
+        padding-right: var(--margin-mobile);
+    }
+
+    /* Sections vertical spacing */
+    section {
+        padding: 48px 0;
+    }
+
+    /* Top Bar */
+    .top-bar .container {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+    .top-bar-info {
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+    }
+
+    /* Sticky Navbar */
+    .navbar .container {
+        flex-wrap: wrap;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        gap: 12px;
+    }
+    .logo {
+        order: 1;
+    }
+    .nav-actions {
+        order: 2;
+        gap: 12px;
+    }
+    .nav-links {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin-top: 4px;
+        gap: 16px;
+        font-size: 13px;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 4px;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Hero Section */
+    .hero .container {
+        flex-direction: column-reverse;
+        gap: 40px;
+        text-align: center;
+    }
+    .hero-title {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+    .hero-desc {
+        margin: 0 auto 24px auto;
+    }
+    .hero-arrow {
+        display: none;
+    }
+    .hero-video-btn {
+        bottom: 16px;
+        right: 16px;
+        padding: 6px 12px;
+    }
+    .hero-card {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        margin: 24px auto 0 auto;
+        width: 100%;
+        max-width: 280px;
+    }
+    .house-tabs {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    /* Features Grid */
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .feature-card.highlight {
+        transform: none;
+    }
+
+    /* About Section */
+    .about .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .about-image {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .about-content {
+        text-align: center;
+    }
+    .about-content .section-title {
+        text-align: center !important;
+    }
+    .about-content .section-desc {
+        text-align: center !important;
+        margin-bottom: 32px !important;
+    }
+    .about-item {
+        text-align: left;
+    }
+    .about-item.highlight {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 16px;
+    }
+
+    /* Today's Sells */
+    .sells .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .sells-content {
+        text-align: center;
+    }
+    .sells-content .section-title {
+        text-align: center !important;
+    }
+    .sells-content .section-desc {
+        text-align: center !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sells-label {
+        justify-content: center;
+    }
+    .sells-list {
+        align-items: center;
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .sells-list li {
+        width: 100%;
+        max-width: 320px;
+        justify-content: flex-start;
+    }
+    .sells-gallery {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+    .sells-col-1 {
+        width: 100%;
+        height: 250px;
+    }
+    .sells-col-2 {
+        width: 100%;
+        gap: 16px;
+    }
+    .sells-col-2 > div {
+        height: 180px;
+    }
+
+    /* Services Grid */
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Featured Property */
+    .featured-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+        margin-bottom: 40px;
+    }
+    .featured-tabs {
+        width: 100%;
+        justify-content: center;
+        gap: 16px;
+    }
+    .prop-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    /* Unit Detail */
+    .unit-detail {
+        height: auto;
+        padding: 64px 0;
+    }
+    .unit-card {
+        flex-direction: column;
+        gap: 20px;
+        width: calc(100% - 32px);
+        margin: 0 auto;
+        padding: 24px;
+    }
+    .unit-info {
+        padding-right: 0;
+        text-align: center;
+    }
+    .unit-stats {
+        justify-content: center;
+    }
+    .unit-badge {
+        display: none;
+    }
+
+    /* Testimonials */
+    .testi-wrap {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .testi-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+    }
+    .testi-img-wrap {
+        width: 240px;
+        height: 240px;
+        margin: 0 auto;
+    }
+    .testi-stars {
+        justify-content: center;
+    }
+
+    /* Projects */
+    .proj-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .subscribe {
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+        width: 100%;
+    }
+    .sub-input {
+        padding: 0;
+    }
+    .btn-sub {
+        width: 100%;
+    }
+
+    /* Blog Grid */
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* Contact Section */
+    .contact-wrap {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contact-info {
+        text-align: center;
+    }
+    .contact-desc {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-list {
+        align-items: center;
+    }
+    .contact-shape {
+        display: none;
+    }
+    .contact-form {
+        padding: 24px;
+        width: 100%;
+    }
+    .contact-form h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
